@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter ListView Navigation I',
+      title: 'UAS PEMOGRAMAN MOBILE',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -32,12 +32,12 @@ class MyListView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: new Text('Explore Jakarta'),
+        title: new Text('UAS 2022'),
         actions: [
-          IconButton(
-            icon: Icon(Icons.campaign),
-            onPressed: () {},
-          ),
+          // IconButton(
+          //   icon: Icon(Icons.campaign),
+          //   onPressed: () {},
+          // ),
           IconButton(
               icon: Icon(
                 Icons.account_circle,
